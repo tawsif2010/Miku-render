@@ -17,14 +17,14 @@
     "ignoreCommand": []
   },
   "adminBot": [
-    "100081894480123", "100072881080249"],
+    "100063840894133", "100063840894133"],
   "whiteListMode": {
     "enable": false,
-    "whiteListIds": ["100081894480123","100072881080249"],
+    "whiteListIds": ["100063840894133","100072881080249"],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": " 𝘼𝙣𝙘𝙝𝙚𝙨𝙩𝙤𝙧 𝘼𝙞 ",
-  "prefix": "/",
+  "nickNameBot": "[ ! ] • Miku⁠♡",
+  "prefix": "!",
   "database": {
     "type": "sqlite",
     "uriMongodb": "",
@@ -32,14 +32,14 @@
     "autoRefreshThreadInfoFirstTime": true,
     "notes": "(1) type selects 'json' or 'sqlite' or 'mongodb'. If you choose mongodb, enter uri connect mongodb in the uriMongodb section, instructions to get uri connect mongodb at: https://youtu.be/z1f9urHW5xY. I recommend using 'mongodb' or 'sqlite', json is not recommended because it is not stable. (2) when you set autoSyncWhenStart to true, the bot will automatically synchronize the data in the database when starting the bot, this will make the bot start slower. (3) when you set autoRefreshThreadInfoFirstTime to true, the bot will automatically refresh the thread information when get first message from the thread since starting the bot"
   },
-  "timeZone": "Asia/Kathmandu",
-  "credentials": {
-    "gmailAccount": {
-      "email": "",
-      "clientId": "",
-      "clientSecret": "",
-      "refreshToken": "",
-      "apiKey": ""
+  "timeZone": "Asia/Ho_Chi_Minh",
+	"credentials": {
+		"gmailAccount": {
+			"email": "batwire187@gmail.com",
+			"clientId": "8864284320-3v8dd1uqtijifcmmg51t1j2po151si61.apps.googleusercontent.com",
+			"clientSecret": "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",
+			"refreshToken": "1//045OTpkSYZIviCgYIARAAGAQSNwF-L9Irm2r6F8_a-TDFfIbxTi-DBpTOmkZzOxqDqs9BQ8j7IGhBwJWZv-8Gfgtb-yVVr0BDiTA",
+			"apiKey": ""
     },
     "gRecaptcha": {
       "siteKey": "",
