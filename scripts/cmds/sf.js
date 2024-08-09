@@ -12,7 +12,7 @@ module.exports = {
   },
   onStart: async function(){},
   onChat: async function({ event, message, getLang }) {
-    if (event.body && event.body.toLowerCase() === "omg") {
+    if (event.body && event.body.toLowerCase() === "😎") {
       return message.reply({
         body: "😎😎😎",
         attachment: fs.createReadStream("Messenger_creation_344946322020045.mp4"),
